@@ -1,10 +1,13 @@
-import React from 'react';
+// impotación de css
 import './Boton.css';
 
-function Boton({ children }) {
+function Boton( { onClick, children } ) {
 	return (
 		<div className='contenedorBoton'>
-			<button className='boton'>
+			<button 
+				className='boton'
+				onClick={onClick}
+			>
 				{children}
 			</button>
 		</div>

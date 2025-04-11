@@ -1,0 +1,27 @@
+.contenedorBtnSR {
+    display: flex;
+    align-items: center;
+    width: auto;
+
+}
+
+.btnSR {
+    width: 770px;
+	height: auto;
+	border-radius: 10000px;
+	padding: 10px;
+	margin: 10px;
+	font-size: 40px;
+	text-justify: center;
+	box-shadow: 5px 5px 10px #000;
+	border: none;
+	color: black;
+	background: linear-gradient(to right, #111, #fff);
+	transition: 1s;
+	cursor: pointer;
+}
+
+.btnSR:hover {
+    box-shadow: none;
+	background: linear-gradient(to left, #111, #fff);
+}

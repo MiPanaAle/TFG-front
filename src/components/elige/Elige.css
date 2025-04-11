@@ -1,0 +1,49 @@
+.tablero {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+}
+
+.elige {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.contenedorTexto {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+h2 {
+  font-size: 6em;
+  color: #fff;
+}
+
+.peon {
+  height: 500px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  cursor: pointer;
+  transition: transform 2s ease;
+}
+
+.peon:hover {
+  transform: rotate(360deg);
+}

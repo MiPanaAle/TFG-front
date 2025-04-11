@@ -1,0 +1,70 @@
+.inicio {
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.img {
+	z-index: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 10px;
+	height: auto;
+}
+
+.logo {
+	width: 350px;
+	height: auto;
+}
+
+.textInicio {
+	position: relative;
+	width: 50vw;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 1;
+	pointer-events: none;
+	justify-content: flex-start;
+}
+
+.boton {
+	position: relative;
+    top: 25%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+	font-size: 3em;
+	color: white;
+	padding-top: 40px;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 50%;
+}
+
+.arriba {
+	padding-top: 10px;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 50%;
+}
+
+.abajo {
+	display: flex;
+	align-items: center;
+    justify-content: center;
+}
+
+

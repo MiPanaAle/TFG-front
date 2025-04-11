@@ -1,0 +1,37 @@
+input {
+	width: 500px;
+	height: 75px;
+	padding: 20px;
+	margin: 8px;
+	display: inline-block;
+	box-sizing: border-box;
+	border-radius: 1000px;
+	font-size: 22px;
+	color: black;
+	background: linear-gradient(to right, #fff, #111);
+	transition: 0.3s;
+	border: 0px;
+	box-shadow: 5px 5px 10px #000;
+}
+
+input:focus,
+input:hover {
+	border: none;
+	background: linear-gradient(to left, #fff, #111);
+	color: #fff;
+	user-select: url('../../../img/cursor/cursorBlack.png'), pointer;
+	outline: none;
+	box-shadow: none;
+}
+
+label{
+	color:#fff; 
+	font-size: 50px;
+}
+
+.contenedorInput{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}

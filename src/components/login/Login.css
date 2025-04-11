@@ -1,0 +1,65 @@
+.tablero {
+	position: absolute;
+	bottom: 0;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.login {
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+.form {
+	display: flex;
+	flex-direction: row;
+
+}
+
+.input {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 50px;
+}
+
+.contenedorBoton {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	flex-wrap: nowrap;
+	justify-content: center;
+	width: auto;
+}
+
+.arriba {
+	width: 1000px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.abajo {
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	font-size: 4em;
+	text-align: center;
+	color: white;
+	padding-top: 50px;
+}
